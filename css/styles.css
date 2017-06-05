@@ -2,22 +2,22 @@
   text-align: center;
 }
 
-#litemoji {
+.litemoji {
   height: 100px;
   width: 100px;
   margin-bottom: 20px;
 }
 
-#printed-list {
-  display: none;
-}
-
 li {
-  text-align: center;
+  text-align: left;
   font-size: 4em;
   color: salmon;
   list-style-type: none;
 
+}
+
+#printed-list {
+  display: none;
 }
 
 #submit {
