@@ -6,9 +6,32 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>G-List</title>
   </head>
     <body>
-      
-    </body>
+    <div class="container">
+      <div class="jumbotron" id="banner">
+        <h1><img id="litemoji" src="img/Fire_emoji.png">G-List<img id="litemoji" src="img/Fire_emoji.png"></h1>
+      </div>
+      <form id="primary-list">
+        <div class="form-group">
+          <h2>Welcome to G-List!</h2>
+          <h3>Add an item to your main to-do list, or go to grocery or bucketlist below.</h3>
+          <input id="new-item" class="form-control" type="text">
+        </div>
+        <button type="button" class="btn btn-primary btn-lg active" id="submit">Add</button>
+      </form>
+      <div id="output">
+        <ul id="printed-list">
+        </ul>
+      </div>
+      <footer class="navbar navbar-inverse navbar-fixed-bottom">
+        <ul class="breadcrumb">
+          <li role="presentation" class="active"><a href="#">Home</a></li>
+          <li role="presentation"><a href="#">Profile</a></li>
+          <li role="presentation"><a href="#">Messages</a></li>
+        </ul>
+      </footer>
+    </div>
+  </body>
 </html>

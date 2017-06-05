@@ -1,0 +1,38 @@
+#banner {
+  text-align: center;
+}
+
+#litemoji {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+#printed-list {
+  display: none;
+}
+
+li {
+  text-align: center;
+  font-size: 4em;
+  color: salmon;
+  list-style-type: none;
+
+}
+
+#submit {
+  text-align: right;
+  float: right;
+}
+
+h2 {
+  font-size: 3.5em;
+  text-align: center;
+  color: salmon;
+}
+
+h3 {
+  font-size: 1em;
+  font-style: italic;
+  text-align: center;
+}
