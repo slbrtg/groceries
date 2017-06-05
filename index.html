@@ -9,32 +9,24 @@
     <title>G-List</title>
   </head>
     <body>
-    <div class="container">
+    <div class="container" id="maincontainer">
       <div class="jumbotron" id="banner">
         <h1><img class="litemoji" src="img/Fire_emoji.png">G-List<img class="litemoji" src="img/Fire_emoji.png"></h1>
       </div>
       <form id="primary-list">
         <div class="form-group">
           <h2>Welcome to G-List!</h2>
-          <h3>Add an item to your main to-do list, or go to grocery or bucketlist below.</h3>
-          <input id="new-item" class="form-control" type="text">
+          <h3>Add an item to your grocery list:</h3>
+          <input id="new-item" class="form-control" type="text" placeholder="hi">
         </div>
-        <button type="button" class="btn btn-primary btn-lg active" id="add">Add</button>
-        <button type="button" class="btn btn-primary btn-lg active" id="submit">See List</button>
+        <button type="button" class="btn btn-warning btn-lg active" id="submit">See List</button>
       </form>
       <div id="output">
         <ul id="printed-list">
 
         </ul>
-        <button type="button" class="btn btn-primary btn-lg active" id="remove">Remove</button>
+        
       </div>
-      <footer class="navbar navbar-inverse navbar-fixed-bottom">
-        <ul class="breadcrumb">
-          <li role="presentation" class="active"><a href="#">Home</a></li>
-          <li role="presentation"><a href="#">Profile</a></li>
-          <li role="presentation"><a href="#">Messages</a></li>
-        </ul>
-      </footer>
     </div>
   </body>
 </html>

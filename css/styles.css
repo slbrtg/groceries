@@ -1,5 +1,19 @@
+body {
+  background-image: url(../img/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#maincontainer {
+  background-color: white;
+}
+
 #banner {
   text-align: center;
+}
+
+#primary-list {
+  margin-bottom: 100px;
 }
 
 .litemoji {
@@ -13,7 +27,6 @@ li {
   font-size: 4em;
   color: salmon;
   list-style-type: none;
-
 }
 
 #printed-list {
@@ -23,6 +36,7 @@ li {
 #submit {
   text-align: right;
   float: right;
+  display: inline;
 }
 
 h2 {
@@ -38,6 +52,11 @@ h3 {
 }
 
 .testcolor {
-  color: pink;
+  color: cyan;
   font-size: 5em;
+}
+
+#remove {
+  float: right;
+  margin-top: 30px;
 }
