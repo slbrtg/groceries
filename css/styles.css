@@ -1,15 +1,22 @@
 body {
   background-image: url(../img/background.jpeg);
+  background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #maincontainer {
-  background-color: white;
+  margin-top:125px;
+  display: block;
+  background-color: #fce4ec;
 }
 
 #banner {
   text-align: center;
+}
+
+#grocery-list {
+  margin: 35px 0px 35px 0;
 }
 
 #primary-list {
@@ -22,41 +29,53 @@ body {
   margin-bottom: 20px;
 }
 
-li {
-  text-align: left;
-  font-size: 4em;
-  color: salmon;
-  list-style-type: none;
+#printed-list {
+  display: grid;
 }
 
-#printed-list {
-  display: none;
+
+#banner-h2 {
+  font-size: 3.5em;
+  text-align: center;
+  color: #000000;
+}
+
+#banner-h3 {
+  font-size: 1.4em;
+  color: #000000;
+  text-align: center;
+}
+
+.item {
+  float: left;
+  width: 90%;
+  display: inline-block;
+  text-align: left;
+  font-size: 2.7em;
+  color: #000000;
+  list-style-type: none;
+  margin: 10px 0 10px 0;
+}
+
+.remove-btn {
+  margin-left: 20px;
+  height: 55px;
+  display: inline-block;
+  float: right;
+}
+
+#new-item {
+  float: left;
+  width: 90%;
+  margin-top: 14px;
 }
 
 #submit {
-  text-align: right;
-  float: right;
-  display: inline;
+  margin-left: 20px;
+  height: 55px;
+  display: inline-block;
 }
 
-h2 {
-  font-size: 3.5em;
-  text-align: center;
-  color: salmon;
-}
-
-h3 {
-  font-size: 1em;
-  font-style: italic;
-  text-align: center;
-}
-
-.testcolor {
-  color: cyan;
-  font-size: 5em;
-}
-
-#remove {
-  float: right;
-  margin-top: 30px;
+#plus-submit {
+  font-size: auto;
 }

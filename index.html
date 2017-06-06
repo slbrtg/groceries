@@ -6,26 +6,21 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>G-List</title>
+    <title>The Grocery List</title>
   </head>
-    <body>
+  <body>
     <div class="container" id="maincontainer">
-      <div class="jumbotron" id="banner">
-        <h1><img class="litemoji" src="img/Fire_emoji.png">G-List<img class="litemoji" src="img/Fire_emoji.png"></h1>
-      </div>
-      <form id="primary-list">
+      <form id="grocery-list">
         <div class="form-group">
-          <h2>Welcome to G-List!</h2>
-          <h3>Add an item to your grocery list:</h3>
+          <h2 id="banner-h2">The Grocery List</h2>
+          <h3 id="banner-h3">Add an item to your grocery list</h3>
           <input id="new-item" class="form-control" type="text" placeholder="hi">
+          <button type="submit" class="btn btn-primary btn-lg active" id="submit"><span id="plus-submit">+</span></button>
         </div>
-        <button type="button" class="btn btn-warning btn-lg active" id="submit">See List</button>
       </form>
       <div id="output">
         <ul id="printed-list">
-
         </ul>
-        
       </div>
     </div>
   </body>
